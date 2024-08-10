@@ -30,7 +30,7 @@ terraform destroy: Apaga todos os recursos criados pelo Terraform
 **admin_password:** Senha do administrador da VM
 
 # Notas:
-Acesse o aquivo vm.tf e configure as informações de acesso da vm:
 
-**admin_username**                  = "USUARIO"
-**admin_password**                  = "SENHA"
+Configurar dentro de **provider.tf** as credencias para conexão com a CLI
+
+**Aguardar para garantir que os containers estão inicializados**

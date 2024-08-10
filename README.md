@@ -16,6 +16,8 @@ Vamos configurar um site WordPress completo na Azure utilizando Terraform. Esse 
 
 **Acesse o WordPress:** Após a conclusão da execução do Terraform, o endereço IP da VM que hospeda o WordPress será exibido na saída do comando terraform apply. Acesse esse endereço em um navegador para visualizar o site WordPress.
 
+**Aguardar 30s para garantir que os containers estão inicializados**
+
 **Remoção da Infraestrutura:** Se não precisar mais dos recursos provisionados, você pode removê-los com o comando:
 terraform destroy: Apaga todos os recursos criados pelo Terraform
 
@@ -29,8 +31,10 @@ terraform destroy: Apaga todos os recursos criados pelo Terraform
 
 **admin_password:** Senha do administrador da VM
 
+
+
 # Notas:
 
 Configurar dentro de **provider.tf** as credencias para conexão com a CLI
 
-**Aguardar para garantir que os containers estão inicializados**
+
